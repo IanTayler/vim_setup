@@ -42,3 +42,4 @@ call plug#end()
 
 " Bindings
 nnoremap <Space> :FZF<CR>
+nnoremap <c-x> :Lines<CR>
