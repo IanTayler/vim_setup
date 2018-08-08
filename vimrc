@@ -9,6 +9,7 @@ filetype plugin on
 " Sensible stuff
 set incsearch
 set scrolloff=1
+set backspace=indent,eol,start
 syntax on
 
 " Strip final whitespace by default
