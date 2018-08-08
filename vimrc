@@ -35,6 +35,8 @@ set clipboard=unnamedplus
 call plug#begin('~/.vim/plugged')
 
 Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
+Plug 'dracula/vim', { 'as': 'dracula' }
 
 call plug#end()
 
