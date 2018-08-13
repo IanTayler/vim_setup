@@ -2,6 +2,8 @@
 " Except on the current line, where we show the actual line number.
 set number
 set relativenumber
+" Show line and column at the bottom.
+set ruler
 
 " FileType plugin (~/.vim/ftplugin/*.vim files)
 filetype plugin on
