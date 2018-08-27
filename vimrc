@@ -42,10 +42,13 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'tpope/vim-commentary'
 Plug 'mileszs/ack.vim'
+Plug 'w0rp/ale'
 
 call plug#end()
 
 " Plugin-related config
+
+let g:ale_lint_on_text_changed = 'never'
 
 if executable('ag')
   let g:ackprg = 'ag --vimgrep'
