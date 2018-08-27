@@ -41,9 +41,15 @@ Plug 'junegunn/fzf.vim'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'tpope/vim-commentary'
-Plug 'gabesoft/vim-ags'
+Plug 'mileszs/ack.vim'
 
 call plug#end()
+
+" Plugin-related config
+
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif
 
 " Bindings
 nnoremap <Space> :FZF<CR>
