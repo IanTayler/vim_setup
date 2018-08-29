@@ -43,6 +43,7 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'tpope/vim-commentary'
 Plug 'mileszs/ack.vim'
 Plug 'w0rp/ale'
+Plug 'scrooloose/nerdtree'
 
 call plug#end()
 
@@ -56,4 +57,5 @@ endif
 
 " Bindings
 nnoremap <Space> :FZF<CR>
-nnoremap <c-x> :Lines<CR>
+nnoremap <C-x> :Lines<CR>
+noremap <C-n> :NERDTreeToggle<CR>
