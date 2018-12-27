@@ -56,6 +56,7 @@ if executable('ag')
 endif
 
 " Bindings
-nnoremap <Space> :FZF<CR>
-nnoremap <C-x> :Lines<CR>
+nnoremap <leader><space> :FZF<CR>
+nnoremap <leader>x :Lines<CR>
+nnoremap <F2> :ALELint<CR>
 noremap <C-n> :NERDTreeToggle<CR>
