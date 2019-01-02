@@ -56,6 +56,10 @@ if executable('ag')
 endif
 
 " Bindings
+let mapleader=","
+nnoremap <leader><leader> ,
+nnoremap ; :
+nnoremap : ;
 nnoremap <leader><space> :FZF<CR>
 nnoremap <leader>x :Lines<CR>
 nnoremap <F2> :ALELint<CR>
