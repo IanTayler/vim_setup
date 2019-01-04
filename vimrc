@@ -59,7 +59,9 @@ endif
 let mapleader=","
 nnoremap <leader><leader> ,
 nnoremap ; :
+vnoremap ; :
 nnoremap : ;
+vnoremap : ;
 nnoremap <leader><space> :FZF<CR>
 nnoremap <leader>x :Lines<CR>
 nnoremap <F2> :ALELint<CR>
