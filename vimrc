@@ -44,6 +44,7 @@ Plug 'tpope/vim-commentary'
 Plug 'mileszs/ack.vim'
 Plug 'w0rp/ale'
 Plug 'scrooloose/nerdtree'
+Plug 'itchyny/lightline.vim'
 
 call plug#end()
 
@@ -54,6 +55,13 @@ let g:ale_lint_on_text_changed = 'never'
 if executable('ag')
   let g:ackprg = 'ag --vimgrep'
 endif
+
+" Make lightline work properly under tmux
+if !has('gui_running')
+  set t_Co=256
+endif
+" Don't show mode as it's already on lightline
+set noshowmode
 
 " Bindings
 let mapleader=","
