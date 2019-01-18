@@ -62,6 +62,8 @@ if !has('gui_running')
 endif
 " Don't show mode as it's already on lightline
 set noshowmode
+" No idea what this is, but it doesn't work without it
+set laststatus=2
 
 " Bindings
 let mapleader=","
