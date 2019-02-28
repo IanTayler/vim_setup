@@ -45,6 +45,7 @@ Plug 'mileszs/ack.vim'
 Plug 'w0rp/ale'
 Plug 'scrooloose/nerdtree'
 Plug 'itchyny/lightline.vim'
+Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
