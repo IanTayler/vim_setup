@@ -75,5 +75,7 @@ nnoremap : ;
 vnoremap : ;
 nnoremap <leader><space> :FZF<CR>
 nnoremap <leader>x :Lines<CR>
+nnoremap <leader>g :Gstatus<CR>
+inoremap <leader>g :Gstatus<CR>
 nnoremap <F2> :ALELint<CR>
 noremap <C-n> :NERDTreeToggle<CR>
