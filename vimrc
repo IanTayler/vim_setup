@@ -1,7 +1,6 @@
 " Show relative line numbers, for easier jk navigation.
 " Except on the current line, where we show the actual line number.
 set number
-set relativenumber
 " Show line and column at the bottom.
 set ruler
 
