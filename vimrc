@@ -66,6 +66,9 @@ endif
 set noshowmode
 " No idea what this is, but it doesn't work without it
 set laststatus=2
+" I normally have dark barkgrounds. This gives us better colors when inside
+" tmux
+set background=dark
 
 " Bindings
 let mapleader=","
