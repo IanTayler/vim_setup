@@ -51,6 +51,8 @@ endif
 
 " Jedi config
 let g:jedi#completions_command = "<c-n>"
+let g:jedi#auto_vim_configuration = 0
+let g:jedi#show_call_signatures = 2
 
 " Make lightline work properly under tmux
 if !has('gui_running')
@@ -63,6 +65,8 @@ set laststatus=2
 " I normally have dark barkgrounds. This gives us better colors when inside
 " tmux
 set background=dark
+" Get rid of the scratchpad on autocompletion.
+set completeopt=menuone
 
 " Bindings
 let mapleader=","
