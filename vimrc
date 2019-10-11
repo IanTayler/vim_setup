@@ -32,7 +32,7 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'tpope/vim-commentary'
 Plug 'mileszs/ack.vim'
-Plug 'w0rp/ale'
+Plug 'dense-analysis/ale'
 Plug 'scrooloose/nerdtree'
 Plug 'itchyny/lightline.vim'
 Plug 'davidhalter/jedi-vim'

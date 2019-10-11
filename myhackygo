@@ -1,0 +1,2 @@
+#!/usr/bin/env zsh
+cd - && go $@ 2>&1 | sed 's/vet: //g' 1>&2
