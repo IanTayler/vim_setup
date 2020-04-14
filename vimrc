@@ -37,6 +37,8 @@ Plug 'scrooloose/nerdtree'
 Plug 'itchyny/lightline.vim'
 Plug 'davidhalter/jedi-vim'
 Plug 'JuliaEditorSupport/julia-vim'
+Plug 'prabirshrestha/async.vim'
+Plug 'prabirshrestha/vim-lsp'
 
 call plug#end()
 
