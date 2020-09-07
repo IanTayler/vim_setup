@@ -39,6 +39,7 @@ Plug 'davidhalter/jedi-vim'
 Plug 'JuliaEditorSupport/julia-vim'
 Plug 'prabirshrestha/async.vim'
 Plug 'prabirshrestha/vim-lsp'
+Plug 'mbbill/undotree'
 
 call plug#end()
 
@@ -79,5 +80,6 @@ nnoremap : ;
 vnoremap : ;
 nnoremap <leader><space> :FZF<CR>
 nnoremap <leader>x :Lines<CR>
+nnoremap gu :UndotreeToggle<CR>
 nnoremap <F2> :ALELint<CR>
 noremap <C-n> :NERDTreeToggle<CR>

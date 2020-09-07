@@ -6,6 +6,8 @@ if executable('sourcekit-lsp')
         \ })
 endif
 setlocal omnifunc=lsp#complete
+let b:ale_linters = ['swiftlint']
+let b:ale_fixers = ['swiftformat', 'trim_whitespace', 'remove_trailing_lines']
 nnoremap gd :<C-u>LspDefinition<CR>
 nnoremap gh :<C-u>LspHover<CR>
 nnoremap gr :<C-u>LspReferences<CR>
