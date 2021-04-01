@@ -3,7 +3,7 @@ setlocal shiftwidth=4
 setlocal softtabstop=4
 
 let b:ale_linters = ['pylint']
-let b:ale_fixers = ['black', 'remove_trailing_lines', 'trim_whitespace']
+let b:ale_fixers = ['black', 'remove_trailing_lines', 'trim_whitespace', 'isort']
 " Reasonable defaults.
 let b:ale_python_pylint_options = '--ignore=node_modules,.serverless,.git'
 let b:ale_python_pylint_change_directory = 0
