@@ -40,6 +40,7 @@ Plug 'JuliaEditorSupport/julia-vim'
 Plug 'prabirshrestha/async.vim'
 Plug 'prabirshrestha/vim-lsp'
 Plug 'mbbill/undotree'
+Plug 'yuttie/comfortable-motion.vim'
 
 call plug#end()
 
