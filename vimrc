@@ -20,6 +20,9 @@ set softtabstop=2
 set expandtab
 set autoindent
 
+" Show signcolumn _over_ number.
+set signcolumn=number
+
 " Use system clipboard
 set clipboard=unnamedplus
 
